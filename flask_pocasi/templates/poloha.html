@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <h1>NASTAV POLOHU</h1>
+            </header>
+        
+            <main>
+                <form method="POST">
+                    {{form.hidden_tag()}}
+                    {{form.poloha}} <br>
+                    <input type="submit" value="nastav">
+                </form>
+            </main>
+        
+            <footer>
+                <a href="#">nastav si barvu kartičky</a> <br>
+                <a href="/poloha">zrušit</a>
+            </footer>   
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+https://api.openweathermap.org/data/2.5/weather?q=Teplice&appid=3641ab635b53178dbe56a8e894e40431&lang=cz&units=metric
